@@ -94,25 +94,40 @@ Access:
 
 ---
 ├── pycache/ # Python cache files
+
 ├── .venv/ # Virtual environment
+
 ├── docs/ # Documentation files
 ├── static/ # CSS, JS, assets
+
 ├── uploads/ # Uploaded resumes
-│├── .gitignore
+
 ├── ai_scorer.py # ATS scoring logic
+
 ├── ats_resume_analyzer.db # SQLite database
+
 ├── database.py # Database operations
+
 ├── download_nltk.py # NLTK resource downloader
+
 ├── email_service.py # SMTP email handling
+
 ├── init_db.py # Database initialization
+
 ├── main.py # Core application logic
+
 ├── run.py # Application entry point
+
 ├── resume_parser.py # PDF/DOCX text extraction
+
 ├── test_dns.py # Testing script
-├── README.md # Project overview
+
 ├── PROJECT_SUMMARY.md # Academic project summary
+
 ├── QUICK_REFERENCE.md # Quick usage guide
+
 ├── SETUP_GUIDE.md # Detailed setup instructions
+
 ├── requirements.txt # Python dependencies
 
 ---
