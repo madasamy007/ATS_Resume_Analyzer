@@ -145,4 +145,52 @@ Access:
 - Support for multiple job roles with custom scoring
 
 ## File Structure
+├── pycache/ # Python cache files
+├── .venv/ # Virtual environment
+├── docs/ # Documentation files
+├── static/ # CSS, JS, assets
+├── uploads/ # Uploaded resumes
+├── ai_scorer.py # ATS scoring logic
+├── ats_resume_analyzer.db # SQLite database
+├── database.py # Database operations
+├── download_nltk.py # NLTK resource downloader
+├── email_service.py # SMTP email handling
+├── init_db.py # Database initialization
+├── main.py # Core application logic
+├── run.py # Application entry point
+├── resume_parser.py # PDF/DOCX text extraction
+├── test_dns.py # Testing script
+├── PROJECT_SUMMARY.md # Academic project summary
+├── QUICK_REFERENCE.md # Quick usage guide
+├── SETUP_GUIDE.md # Detailed setup instructions
+├── requirements.txt # Python dependencies
+
+---
+
+## Usage Notes
+
+- Maximum file size: **16MB**
+- Supported formats: **PDF, DOCX**
+- Email requires valid SMTP credentials
+- Admin dashboard auto-refreshes every **30 seconds**
+
+---
+
+## Security
+
+- Secrets stored as **environment variables**
+- File uploads validated and sanitized
+- SMTP uses **app-specific passwords**
+- Resume files stored in secure directories
+
+---
+
+## Future Enhancements
+
+- Train ML model on larger datasets
+- Advanced NLP for experience extraction
+- Bulk resume export (CSV / PDF)
+- Analytics dashboard
+- Keyword-based resume improvement suggestions
+- Support for multiple job roles with custom scoring
 
